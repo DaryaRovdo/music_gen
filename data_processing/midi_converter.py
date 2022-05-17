@@ -1,7 +1,7 @@
 import mido
 import numpy as np
 
-from constants import MAX_NOTE, MIN_NOTE, N, DEFAULT_TEMPO
+from data_processing.constants import MAX_NOTE, MIN_NOTE, N, DEFAULT_TEMPO
 
 
 def _get_new_state(msg: mido.Message, last_state: np.array):
